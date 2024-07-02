@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+//@ts-ignore
 import { createOrder, setPayedStatus, handleUpload } from "../aPayas";
 
 interface Order {
